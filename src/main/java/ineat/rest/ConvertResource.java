@@ -41,7 +41,7 @@ public class ConvertResource {
     @PermitAll
     public Response convertRomanToArabic(String romanNumber) {
     	try {
-			return new Response().setResponse(Utils.convertArabicNumberToRomanNumber(romanNumber));
+			return new Response().setResponse(Utils.convertRomanNumberToArabicNumber(romanNumber));
 		} catch (ConversionException e) {
 
 			return new Response().setResponse("-10", e.getMessage());
