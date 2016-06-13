@@ -13,11 +13,11 @@ public class ConvertResource {
 
 	
     /**
-     * Say hello to currently logged in user.
-     *
-     * Authorized only for principals with Roles.HELLO_ROLE role.
-     *
-     * @return a Message to say hello
+     * 
+     * Service de conversion de chiffres arabes en chiffres romains
+     * 
+     * @param arabicNumber
+     * @return Response
      */
     @GET("/convertArabicToRoman")
     @PermitAll
@@ -31,11 +31,11 @@ public class ConvertResource {
     }
 
     /**
-     * Say hello to anybody.
-     *
-     * Does not require authentication.
-     *
-     * @return a Message to say hello
+     * 
+     * Service de conversion de chiffres romains en chiffres arabes
+     * 
+     * @param romanNumber
+     * @return Response
      */
     @GET("/convertRomanToArabic")
     @PermitAll
