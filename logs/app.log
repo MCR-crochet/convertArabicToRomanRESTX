@@ -1,0 +1,176 @@
+2016-06-13 12:15:32,021 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-13 12:15:32,486 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-13 12:15:32,490 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+Hot compile is not enabled, no on the fly compilation will be performed
+To enable it, use '-Drestx.app.package=<rootAppPackage> -Drestx.router.hotcompile=true' as VM argument
+and make sure you have JDK tools.jar in your classpath
+2016-06-13 12:15:32,492 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> HOT RELOAD <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9000/rest/@/ui/
+ --
+
+2016-06-13 12:15:32,598 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-13 12:16:03,616 [qtp192794887-17 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-13 12:16:03,704 [qtp192794887-17 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api - per request factory created in 460,1 ms
+2016-06-13 12:16:03,707 [qtp192794887-17 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api >> NOT_FOUND - 2,582 ms
+2016-06-13 12:16:12,723 [qtp192794887-16 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui >> NOT_FOUND - 872,8 ?s
+2016-06-13 12:16:24,020 [qtp192794887-16 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui >> NOT_FOUND - 1,101 ms
+2016-06-13 12:16:41,447 [qtp192794887-17 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello >> NOT_FOUND - 4,447 ms
+2016-06-13 12:17:43,788 [qtp192794887-18 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello >> NOT_FOUND - 1,315 ms
+2016-06-13 12:17:54,547 [qtp192794887-18 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /api >> NOT_FOUND - 1,003 ms
+2016-06-13 12:17:54,631 [qtp192794887-18 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /api >> NOT_FOUND - 758,2 ?s
+2016-06-13 12:18:21,862 [qtp192794887-19 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello >> NOT_FOUND - 837,3 ?s
+2016-06-13 12:18:21,966 [qtp192794887-18 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello >> NOT_FOUND - 952,8 ?s
+2016-06-13 12:19:05,723 [qtp192794887-20 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 222,9 ms
+2016-06-13 12:19:05,733 [qtp192794887-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/webjars/jquery/1.9.1/jquery.min.js - per request factory created in 229,8 ms
+2016-06-13 12:19:05,966 [qtp192794887-22 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 2,418 ms
+2016-06-13 12:19:05,968 [qtp192794887-25 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 1,205 ms
+2016-06-13 12:19:20,317 [qtp192794887-20 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 121,7 ms
+2016-06-13 12:19:31,017 [qtp192794887-25 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 29,35 ms
+2016-06-13 12:19:41,682 [qtp192794887-21 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello >> NOT_FOUND - 569,6 ?s
+2016-06-13 12:19:55,055 [qtp192794887-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 20,70 ms
+2016-06-13 12:20:01,623 [qtp192794887-20 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/webjars/jquery/1.9.1/jquery.min.map >> NOT_FOUND - 3,241 ms
+2016-06-13 12:20:07,830 [qtp192794887-20 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/webjars/bootstrap/2.3.0/js/bootstrap.min.js - per request factory created in 220,0 ms
+2016-06-13 12:20:07,832 [qtp192794887-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/webjars/underscorejs/1.4.4/underscore.min.js - per request factory created in 215,5 ms
+2016-06-13 12:20:08,299 [qtp192794887-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/webjars/jquery/1.9.1/jquery.min.map >> NOT_FOUND - 1,268 ms
+2016-06-13 12:20:45,969 [qtp192794887-20 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 43,86 ms
+2016-06-13 12:20:56,788 [qtp192794887-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 13,70 ms
+2016-06-13 12:21:02,296 [qtp192794887-25 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> UNAUTHORIZED - 11,46 ms
+2016-06-13 12:21:27,606 [qtp192794887-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/ui >> NOT_FOUND - 514,0 ?s
+2016-06-13 12:21:55,163 [qtp192794887-25 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /mypojo >> NOT_FOUND - 516,6 ?s
+2016-06-13 12:22:02,557 [qtp192794887-29 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/webjars/jquery/1.9.1/jquery.min.map >> NOT_FOUND - 1,043 ms
+2016-06-13 12:22:02,730 [qtp192794887-27 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 588,5 ?s
+2016-06-13 12:22:02,751 [qtp192794887-19 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 472,1 ?s
+2016-06-13 12:22:02,752 [qtp192794887-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 458,9 ?s
+2016-06-13 12:22:02,759 [qtp192794887-25 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 553,0 ?s
+2016-06-13 12:22:03,709 [qtp192794887-29 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/webjars/jquery/1.9.1/jquery.min.map >> NOT_FOUND - 1,191 ms
+2016-06-13 12:22:47,368 [qtp192794887-27 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 312,8 ms
+2016-06-13 12:22:47,965 [qtp192794887-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/lib/jquery.scrollto.js - per request factory created in 246,1 ms
+2016-06-13 12:22:47,980 [qtp192794887-27 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/js/app.js - per request factory created in 259,9 ms
+2016-06-13 12:22:48,002 [qtp192794887-30 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 257,7 ms
+2016-06-13 12:22:48,365 [qtp192794887-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/webjars/jquery/1.9.1/jquery.min.map >> NOT_FOUND - 6,149 ms
+2016-06-13 12:22:48,696 [qtp192794887-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 34,80 ms
+2016-06-13 12:22:48,696 [qtp192794887-19 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 17,06 ms
+2016-06-13 12:22:48,698 [qtp192794887-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 25,68 ms
+2016-06-13 12:22:48,703 [qtp192794887-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 15,27 ms
+2016-06-13 12:22:48,912 [qtp192794887-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 42,59 ms
+2016-06-13 12:22:49,274 [qtp192794887-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 139,7 ms
+2016-06-13 12:22:49,417 [qtp192794887-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/json-schema - per request factory created in 349,3 ms
+2016-06-13 12:22:49,399 [qtp192794887-29 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/specs - per request factory created in 328,4 ms
+2016-06-13 12:22:49,323 [qtp192794887-19 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/config - per request factory created in 251,5 ms
+2016-06-13 12:22:49,683 [qtp192794887-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 30,14 ms
+2016-06-13 12:22:49,648 [qtp192794887-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 26,46 ms
+2016-06-13 12:22:49,615 [qtp192794887-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 47,00 ms
+2016-06-13 12:22:49,598 [qtp192794887-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 392,7 ms
+2016-06-13 12:22:49,540 [qtp192794887-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 356,2 ms
+2016-06-13 12:22:49,465 [qtp192794887-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 215,9 ms
+2016-06-13 12:22:49,436 [qtp192794887-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 273,3 ms
+2016-06-13 12:22:49,994 [qtp192794887-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 51,14 ms
+2016-06-13 12:22:49,903 [qtp192794887-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 33,32 ms
+2016-06-13 12:22:49,766 [qtp192794887-19 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 73,62 ms
+2016-06-13 12:22:57,517 [qtp192794887-19 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello >> NOT_FOUND - 629,1 ?s
+2016-06-13 12:23:01,685 [qtp192794887-19 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/webjars/jquery/1.9.1/jquery.min.map >> NOT_FOUND - 3,574 ms
+2016-06-13 12:23:01,964 [qtp192794887-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 42,01 ms
+2016-06-13 12:23:02,252 [qtp192794887-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 10,68 ms
+2016-06-13 12:23:02,362 [qtp192794887-19 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 16,99 ms
+2016-06-13 12:23:02,355 [qtp192794887-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/log-admin - per request factory created in 207,5 ms
+2016-06-13 12:23:02,341 [qtp192794887-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 27,15 ms
+2016-06-13 12:23:02,300 [qtp192794887-30 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 43,43 ms
+2016-06-13 12:23:02,285 [qtp192794887-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 26,61 ms
+2016-06-13 12:23:02,277 [qtp192794887-29 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 42,11 ms
+2016-06-13 12:23:02,252 [qtp192794887-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 18,97 ms
+2016-06-13 12:23:02,410 [qtp192794887-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 17,49 ms
+2016-06-13 12:23:02,467 [qtp192794887-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 7,362 ms
+2016-06-13 12:23:02,519 [qtp192794887-28 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 41,59 ms
+2016-06-13 12:23:02,473 [qtp192794887-19 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 12,52 ms
+2016-06-13 12:23:29,275 [qtp192794887-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> OK - 6,509 ms
+2016-06-13 12:56:21,938 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-13 12:56:22,404 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-13 12:56:22,408 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+Hot compile is not enabled, no on the fly compilation will be performed
+To enable it, use '-Drestx.app.package=<rootAppPackage> -Drestx.router.hotcompile=true' as VM argument
+and make sure you have JDK tools.jar in your classpath
+2016-06-13 12:56:22,410 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> HOT RELOAD <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9000/rest/@/ui/
+ --
+
+2016-06-13 12:56:22,513 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-13 12:56:29,585 [qtp1122805102-16] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-13 12:56:29,668 [qtp1122805102-16] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /i18n/labels.json - per request factory created in 420,8 ms
+2016-06-13 12:56:29,853 [qtp1122805102-16] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 185,0 ms
+2016-06-13 13:23:41,275 [qtp1122805102-43] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 19,17 ms
+2016-06-13 13:24:23,277 [qtp1122805102-44] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertArabicToRoman >> NOT_FOUND - 4,472 ms
+2016-06-13 13:25:33,749 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-13 13:25:34,194 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-13 13:25:34,198 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+Hot compile is not enabled, no on the fly compilation will be performed
+To enable it, use '-Drestx.app.package=<rootAppPackage> -Drestx.router.hotcompile=true' as VM argument
+and make sure you have JDK tools.jar in your classpath
+2016-06-13 13:25:34,201 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> HOT RELOAD <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9000/rest/@/ui/
+ --
+
+2016-06-13 13:25:34,314 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-13 13:25:52,751 [qtp1122805102-16] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-13 13:25:52,832 [qtp1122805102-16] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertArabicToRoman - per request factory created in 449,8 ms
+2016-06-13 13:25:52,837 [qtp1122805102-16] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertArabicToRoman >> NOT_FOUND - 4,477 ms
+2016-06-13 13:28:52,823 [qtp1122805102-19] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /i18n/labels.json >> NOT_MODIFIED - 193,6 ms
+2016-06-13 13:44:37,652 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-13 13:44:38,113 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-13 13:44:38,117 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+Hot compile is not enabled, no on the fly compilation will be performed
+To enable it, use '-Drestx.app.package=<rootAppPackage> -Drestx.router.hotcompile=true' as VM argument
+and make sure you have JDK tools.jar in your classpath
+2016-06-13 13:44:38,118 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> HOT RELOAD <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9000/api/@/ui/
+ --
+
+2016-06-13 13:44:38,216 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-13 13:44:50,014 [qtp1122805102-17] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-13 13:44:50,115 [qtp1122805102-17] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertArabicToRoman - per request factory created in 491,5 ms
+2016-06-13 13:44:50,115 [qtp1122805102-16] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertArabicToRoman - per request factory created in 527,9 ms
+2016-06-13 13:44:50,121 [qtp1122805102-17] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertArabicToRoman >> NOT_FOUND - 4,767 ms
+2016-06-13 13:44:50,121 [qtp1122805102-16] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertArabicToRoman >> NOT_FOUND - 3,896 ms
+2016-06-13 13:45:12,373 [qtp1122805102-17] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/convertArabicToRoman >> NOT_FOUND - 1,453 ms
+2016-06-13 13:45:12,439 [qtp1122805102-16] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/convertArabicToRoman >> NOT_FOUND - 1,300 ms
+2016-06-13 13:45:22,514 [qtp1122805102-20] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 238,1 ms
+2016-06-13 13:45:22,579 [qtp1122805102-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/lib/keymaster.min.js - per request factory created in 364,3 ms
+2016-06-13 13:45:22,565 [qtp1122805102-19] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/lib/jquery.scrollto.js - per request factory created in 429,3 ms
+2016-06-13 13:45:22,556 [qtp1122805102-18] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 306,1 ms
+2016-06-13 13:45:22,542 [qtp1122805102-16] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/api-docs/js/services/Api.js - per request factory created in 265,2 ms
+2016-06-13 13:45:22,893 [qtp1122805102-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/webjars/jquery/1.9.1/jquery.min.map >> NOT_FOUND - 3,843 ms
+2016-06-13 13:45:23,176 [qtp1122805102-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 17,72 ms
+2016-06-13 13:45:23,185 [qtp1122805102-18] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 39,66 ms
+2016-06-13 13:45:23,185 [qtp1122805102-19] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 33,61 ms
+2016-06-13 13:45:23,178 [qtp1122805102-17] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 57,07 ms
+2016-06-13 13:45:23,360 [qtp1122805102-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 53,59 ms
+2016-06-13 13:45:23,644 [qtp1122805102-16] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 57,87 ms
+2016-06-13 13:45:23,659 [qtp1122805102-19] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 75,37 ms
+2016-06-13 13:45:23,673 [qtp1122805102-18] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 65,74 ms
+2016-06-13 13:45:23,714 [qtp1122805102-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 143,8 ms
+2016-06-13 13:45:23,698 [qtp1122805102-17] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 117,2 ms
+2016-06-13 13:45:23,696 [qtp1122805102-20] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 129,1 ms
+2016-06-13 13:45:23,890 [qtp1122805102-19] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/metrics - per request factory created in 219,4 ms
+2016-06-13 13:45:23,882 [qtp1122805102-16] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 104,8 ms
+2016-06-13 13:45:24,004 [qtp1122805102-19] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 14,62 ms
+2016-06-13 13:45:23,912 [qtp1122805102-18] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 15,57 ms
+2016-06-13 13:45:24,048 [qtp1122805102-17] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 31,58 ms
+2016-06-13 13:45:24,078 [qtp1122805102-20] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 17,36 ms
+2016-06-13 13:52:22,047 [qtp1122805102-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertArabicToRoman ? arabicNumber=5 >> NOT_FOUND - 3,309 ms
+2016-06-13 13:52:23,242 [qtp1122805102-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertArabicToRoman ? arabicNumber=52 >> NOT_FOUND - 689,4 ?s
+2016-06-13 13:52:25,144 [qtp1122805102-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertRomanToArabic ? romanNumber=2 >> NOT_FOUND - 911,3 ?s
+2016-06-13 13:52:25,308 [qtp1122805102-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertRomanToArabic ? romanNumber=22 >> NOT_FOUND - 614,5 ?s
+2016-06-13 13:52:25,935 [qtp1122805102-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertRomanToArabic ? romanNumber=2 >> NOT_FOUND - 904,5 ?s
+2016-06-13 13:53:40,634 [qtp1122805102-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello >> NOT_FOUND - 852,3 ?s
+2016-06-13 13:53:54,036 [qtp1122805102-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertArabicToRoman ? arabicNumber=123 >> NOT_FOUND - 3,260 ms
